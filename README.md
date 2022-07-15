@@ -213,7 +213,7 @@ console.log("Object_HANDLING_Q_NO_15_");
 const car={
     colour:'black',
     model:'c12',
-}
+} 
 console.log(car); 
 for(const [key, value] of Object.entries(car)){ //for in loop used here
     console.log(`[${key},${value}]`);  
